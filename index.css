@@ -1,0 +1,126 @@
+body{
+    margin: 0px;
+    background: url(./fondo.jpg);
+    background-size: cover;
+    font-family: 'Lato';
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container__marca{
+    padding-left: 5%;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    font-family: 'Pacifico' ;
+    font-size: 30px
+}
+
+.container__loginBox{
+    
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5%;
+
+}
+
+.container__loginBox--log{
+    
+    margin-left: 12.5vh;
+    background-color: rgba(255, 255, 255, 0.294);
+    width: 25vw;
+    height: 60vh;
+    padding-right: 5%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.loginBox__title{
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.form{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form b{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#form__pass{
+    margin: 5px;
+    border-color: white;
+    width: 100%;
+    border-bottom-color: aqua;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: transparent;
+    height: 5vh;
+    font-size: 20px;
+    
+    
+}
+
+#form__email{
+    width: 100%;
+    margin: 5px;
+    border-color: white;
+    border-bottom-color: aqua;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: transparent;
+    height: 5vh;
+    font-size: 20px;
+    
+}
+
+
+input:focus , input#form__email:focus, input#form__pass:focus{
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    background-color: #ffffff00;
+}
+
+.button{
+    display: flex;
+    justify-content: center;    
+    
+}
+
+.button button{
+    background-color: rgb(106, 180, 119);
+    width: 20vw;
+    border-radius: 20px;
+    height: 5vh;
+    font-size: 20px;
+    border: 0px;
+    font-family: 'Pacifico' ;
+}
+
+.loginConGoogle{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
